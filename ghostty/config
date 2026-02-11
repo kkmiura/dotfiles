@@ -1,0 +1,169 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /Users/miurakensuke/Library/Application Support/com.mitchellh.ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+# font-family = Iosevka
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
+
+##############
+# 個人設定
+##############
+
+# --- 見た目・フォント ---
+# フォントサイズ（お好みで調整してください）
+font-size = 14
+# 行間を少し広げてモダンにする
+adjust-cell-height = 10%
+
+# テーマ
+theme = Mariana
+
+# --- ウィンドウ・透明度 ---
+# 背景を透過させてブラー（すりガラス効果）を入れる
+background-opacity = 0.90
+background-blur-radius = 20
+
+# ウィンドウ内の余白を入れて圧迫感を減らす
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+# --- Macネイティブな挙動 ---
+# タイトルバーを透明にしてスッキリさせる
+macos-titlebar-style = transparent
+# フルスクリーン時にMac標準の挙動にする
+macos-window-shadow = true
+# 入力中はマウスカーソルを隠す
+mouse-hide-while-typing = true
+
+# --- 操作性 ---
+# 選択しただけでクリップボードにコピー
+copy-on-select = true
+# クリップボードの読み書きを許可
+clipboard-read = allow
+clipboard-write = allow
+
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /Users/miurakensuke/Library/Application Support/com.mitchellh.ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+# font-family = Iosevka
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
+
+##############
+# 個人設定
+##############
+
+# --- 見た目・フォント ---
+# フォントサイズ（お好みで調整してください）
+font-size = 14
+# 行間を少し広げてモダンにする
+adjust-cell-height = 10%
+
+# テーマ
+theme = Mariana
+
+# --- ウィンドウ・透明度 ---
+# 背景を透過させてブラー（すりガラス効果）を入れる
+background-opacity = 0.90
+background-blur-radius = 20
+
+# ウィンドウ内の余白を入れて圧迫感を減らす
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+# --- Macネイティブな挙動 ---
+# タイトルバーを透明にしてスッキリさせる
+macos-titlebar-style = transparent
+# フルスクリーン時にMac標準の挙動にする
+macos-window-shadow = true
+# 入力中はマウスカーソルを隠す
+mouse-hide-while-typing = true
+
+# --- 操作性 ---
+# 選択しただけでクリップボードにコピー
+copy-on-select = true
+# クリップボードの読み書きを許可
+clipboard-read = allow
+clipboard-write = allow
+
+# クイックターミナル(guake風)
+quick-terminal-position = "top"
+quick-terminal-screen = "main"
+quick-terminal-animation-duration = 0.3
+keybind = "global:ctrl+shift+p=toggle_quick_terminal"

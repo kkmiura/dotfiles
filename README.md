@@ -5,11 +5,12 @@ Personal dotfiles for macOS.
 ## Contents
 
 - `.zshrc` – Zsh config with Oh My Zsh (Spaceship theme, git, docker, npm, etc.)
+- `ghostty/config` – [Ghostty](https://ghostty.org/) terminal config
 
 ## Prerequisites
 
-- [Oh My Zsh](https://oh-my-zsh.sh/)
-- Spaceship theme and plugins referenced in `.zshrc`
+- [Oh My Zsh](https://oh-my-zsh.sh/) (for `.zshrc`)
+- [Ghostty](https://ghostty.org/) (for `ghostty/config`)
 
 ## Installation
 
