@@ -14,3 +14,5 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+
+[[ -f ~/.zshrc_local ]] && source ~/.zshrc_local
